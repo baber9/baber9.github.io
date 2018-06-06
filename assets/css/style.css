@@ -4,21 +4,6 @@ body, html {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-    font-family: 'Coda', cursive;
-    font-size: 4em;
-    letter-spacing: 20px;
-}
-
-h4 {
-    letter-spacing: 5px;
-    margin-bottom: 30px;
-}
-
-div h1, div h4, i.large, a.btn-large {
-    color: #ebf4f7;
-}
-
 .bg {
     background-image: url('../images/mountains_background_adj.jpg');
     height: 100%; 
@@ -27,29 +12,6 @@ div h1, div h4, i.large, a.btn-large {
     background-size: cover;
     background-color: #464646;
 }
-
-a.btn-large {
-    border: 1px solid #000c36;
-}
-
-div#sec1 {
-    background-color: #948866;
-    /* background-image: url('../images/circles-light.jpg');
-    height: 100%; 
-    background-repeat: repeat;
-    background-color: #464646; */
-}
-
-div#sec2 {
-    background-color: #8c8982;
-}
-
-#header {
-    padding-top: 230px;
-    margin: auto;
-    text-align: center;
-}
-
 
 #navigation {
     overflow: hidden;
@@ -68,11 +30,77 @@ div#sec2 {
     word-spacing: 20px;
 }
 
+h1, h2, h3 {
+    font-family: 'Coda', cursive;
+    font-size: 4em;
+    letter-spacing: 20px;
+}
+
+div h1, h2, h3, div h4, i.large, a.btn-large {
+    color: #DBDEDA;
+}
+
+h4 {
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+a.btn-large {
+    border: 2px solid #0D1C57;
+    color: #DBDEDA;
+}
+
+#header {
+    padding-top: 230px;
+    margin: auto;
+    text-align: center;
+}
+
+.heading {
+    margin: auto;
+    text-align: center;
+}
+
+div.icon-container {
+    margin: 10px auto;
+}
+
+i.connect-icon {
+    color: #8c8982;
+    float: left;
+    margin: 0 30px;
+}
+
+div#sec1 {
+    background-color: #DBDEDA;
+}
+
+div#sec1 h3 {
+    color: #948866;
+}
+
+div#sec2 {
+    background-color: #62533D;
+}
+
+div#sec3 {
+    background-color: #DBDEDA;
+}
+
+div#sec3 h3 {
+    color: #4E8FD5;
+}
+
+
+#form-submit {
+    background-color: #8c8982;
+}
+
+
 .content {
     padding: 16px;
 }
 
-/*  UNSURE ABOUT THIS!!! --------------*/
 .sticky + .content {
     padding-top: 60px;
 }
@@ -80,4 +108,43 @@ div#sec2 {
 .flipped {
     -webkit-transform: scaleY(-1);
     transform: scaleY(-1);
+}
+
+.contact-imgs {
+    float: left;
+}
+
+.card, .contact-row, .about-row {
+    margin: 70px auto;
+}
+
+.page-footer {
+    background-color: #0D1C57;
+}
+
+#aboutMeImg {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+i#down {
+    display: none;
+}
+
+.tech-icons i {
+    font-size: 50px;
+    color: black;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 460px) {
+    ul.buttons {
+        display: none;
+    }
+
+    i#down {
+        display: inherit;
+    }
 }

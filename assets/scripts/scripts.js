@@ -59,25 +59,32 @@ $(function() {
         }
     });
 
-    // Arrow for mobile scrolling
-    $('#down').on('click', function(e) {
-        e.preventDefault();
-        var el, pos, active = $('body .active');
+    
+    // // NEEDS WORK!
+    // // Arrow for mobile scrolling
+    // $('#down').on('click', () => {
+    //     // e.preventDefault();
+    //     var el;
+    //     var pos;
+    //     var active = $('div.active');  // current active div
 
-        el = active.next();
-        console.log(el.length);
-        if(el.length) {
-            pos = el.offset().top;
-            $('html, body').animate({
-                scrollTop: pos
-            }, 1000);
-            el.addClass('active').siblings().removeClass('active');
-            if (el.attr('id') === 'sec3') {
-                console.log('sec3!');
-                $('#down').addClass('flipped');
-            }
-        }
-    });
+    //     el = active.next();  // next active'atable div (child of body)
+    //     console.log(active.next());
+    //     console.log(el.length);
+    //     if (el.length > 0) {
+    //         pos = el.offset().top;
+    //         $('html, body').animate({
+    //             scrollTop: pos
+    //         }, 1000);
+    //         el.addClass('active').siblings().removeClass('active');
+    //         if (el.attr('id') === 'sec3') {
+    //             console.log('sec3!');
+    //             $('#down').addClass('flipped');
+    //         }
+    //     } else {
+    //         // scroll back to top
+    //     }
+    // });
 
 
 

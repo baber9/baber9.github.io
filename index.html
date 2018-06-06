@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Bryan Aber</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Dev Icons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Coda|Open+Sans" rel="stylesheet">
     <!-- Google Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!-- Materialize Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    
     <!-- Custome CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
 </head>
 <body>
+
+    <!-- Main Section - Full Screen Image BG -->
     <div class="bg active">
+
+        <!-- Header for Main -->
         <div id="header">
             <div><h1>&nbsp;</h1></div>
             <div id="header-name">
@@ -27,68 +34,157 @@
                 <h4>Full-Stack Developer</h4>
             </div>
         
+            <!-- Navigation -->
             <div id="navigation">
-                <ul class="center-align">
-                    <a href='#sec1' class="waves-effect waves-light transparent btn-large">About</a>
-                    <a href='#sec2' class="waves-effect waves-light transparent btn-large">Portfolio</a>
-                    <a href='#sec3' class="waves-effect waves-light transparent btn-large">Contact</a>
+                <ul class="center-align buttons">
+                    <a href='#sec1' class="waves-effect waves-orange transparent btn-large">About</a>
+                    <a href='#sec2' class="waves-effect waves-orange transparent btn-large">Portfolio</a>
+                    <a href='#sec3' class="waves-effect waves-orange transparent btn-large">Contact</a>
                 </ul>
-                <i class="large material-icons" id="down">expand_more</i>
-            </div>
-        </div>
 
+                <!-- Directional Scrolling - for Media Query - LATER -->
+                <i class="large material-icons" id="down">expand_more</i>
+
+            </div>
+
+        </div>
     </div>
 
-
-
+    <!-- BIO Section -->
     <div id="sec1">
         <div class="container content">
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
+            <div class="heading">
+                <h3>About Me</h3>
+            </div>
+            <div class="row about-row">
+                
+                <!-- BIO Image -->
+                <div class="col s12">
+                    <img id="aboutMeImg" src="./assets/images/me.jpg" />
+                </div>
+
+                <!-- BIO -->
+                <div class="col s12">
+                    <p class="flow-text">I'm a Full Stack Developer with 7 years of experience as an IT professional. My passion is solving complex problems by proactively partnering and interacting with others to provide cutting-edge business solutions.
+                    <br /><br />
+                    I have an extensive background in IT support and analysis, which has allowed me to utilize my interpersonal skills to develop business solutions through ongoing relationships which has saved a substantial amout of company resources.
+                    <br /><br />
+                    I'm currently working with MongoDB, Express, React, Node.js, Sequelize, and MySQL.  In addition, I also have experience with several back-end and front-end frameworks like Mongoose, Handlebars, Bootstrap, and Materialize.</p>
+                </div>
+                <!-- <div class="col s12">
+                    <p class="flow-text">I have experience in the following, hightly sought after technologies:</p>
+                </div>
+                <div class="col s12 tech-icons">
+                        <i class="devicon-mongodb-plain-wordmark colored"></i>
+                </div> -->
+
+                </div>
+            </div>
         </div>
     </div>
 
+    <!-- Portfolio Section -->
     <div id="sec2">
         <div class="container content">
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
+            <div class="heading">
+                <h3>Portfolio</h3>
+            </div>
+            <div class="row" id="port-row">
+                
+                <!-- Portfolio Card 1 -->
+                <div class="col s12 m6">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="./assets/images/canvas-view.jpg">
+                            <span class="card-title">Canvas-View</span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>Find where your favorite artist's masterpieces are currently on display!  Technologies:  Node.js, Express, Sequelize, MySQL, Handlebars, JavaScript, JQuery, and MVC structure.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://canvas-view.herokuapp.com/" target="_blank">Check it out!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Card 2 -->
+                <div class="col s12 m6">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="./assets/images/eggsellent.jpg">
+                            <span class="card-title">Eggsellent</span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>This is a very simple game, where you build your favorite egg dish and devour it.  Technologies:  Node.js, Express, MySQL, ORM, Handlebars, JavaScript, and MVC structure.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://ba-eggsellent.herokuapp.com/" target="_blank">Check it out!</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 
+    <!-- Contact Section -->
     <div id="sec3">
         <div class="container content">
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
-            <h1>This is the lower section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt excepturi magni obcaecati ipsam eius alias provident. Consequatur numquam esse incidunt adipisci, quisquam optio, at debitis temporibus, officiis dolor sapiente?</p>
+            <div class="heading">
+                <h3>Contact</h3>
+            </div>
+            <div class="row contact-row">
+
+                <!-- Col 1 Contact Links -->
+                <div class="col s12 m6">
+                    <p class="flow-text">Please connect with me online at the following sites, or email me with the contact form.  Thank you for visiting!
+                    
+                    <!-- Connection Icons -->
+                    <div class="row">
+                        <div class="col s12 icon-container">
+                            <i class="fas fa-envelope fa-3x connect-icon"></i>
+                            <p>baber9@gmail.com</p>
+                        </div>
+                        <div class="col s12 icon-container">
+                            <a href="https://github.com/baber9/" target="_blank"><i class="fab fa-github fa-3x connect-icon"></i></a>
+                            <p>github.com/baber9</p>
+                        </div>
+                        <div class="col s12 icon-container">
+                            <a href="https://www.linkedin.com/in/baber9/" target=_blank><i class="fab fa-linkedin-in fa-3x connect-icon"></i></a>
+                            <p>&nbsp;linkedin.com/in/baber9</p>
+                        </div>
+                    </div>    
+
+                </div>
+
+                <!-- Col 2 Contact Form -->
+                <form class="col s12 m5">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="name" type="text" class="validate">
+                            <label for="first_name">Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email/Phone Number</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Message</label>
+                        </div>
+                    </div>
+                    <button class="btn waves-effect waves-orange disabled" id="form-submit" type="submit" name="action">Submit
+                        <i class="material-icons right">check</i>
+                    </button>
+                </form>
+
+            </div>
         </div>
     </div>
 
@@ -96,27 +192,10 @@
 
     <!-- Footer -->
     <footer class="page-footer">
-        <div class="container">
-            <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
-            </div>
-            </div>
-        </div>
         <div class="footer-copyright">
-            <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <div class="container heading">
+            Created by Bryan Aber © 2018 All Rights Reserved
+            <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
             </div>
         </div>
     </footer>
