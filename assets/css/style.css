@@ -147,4 +147,9 @@ i#down {
     i#down {
         display: inherit;
     }
+
+    #header {
+        padding-top: 80px;
+    }
+
 }
