@@ -160,26 +160,26 @@
                 </div>
 
                 <!-- Col 2 Contact Form -->
-                <form class="col s12 m5">
+                <form class="col s12 m5" action="https://formspree.io/baber9@gmail.com" method="POST">
                     <div class="row">
                         <div class="input-field col s12">
-                            <input id="name" type="text" class="validate">
+                            <input name="name" type="text">
                             <label for="first_name">Name</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
-                            <input id="email" type="email" class="validate">
+                            <input name="_replyto" type="text">
                             <label for="email">Email/Phone Number</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
-                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <textarea name="message" class="materialize-textarea"></textarea>
                             <label for="textarea1">Message</label>
                         </div>
                     </div>
-                    <button class="btn waves-effect waves-orange disabled" id="form-submit" type="submit" name="action">Submit
+                    <button class="btn waves-effect waves-orange" id="form-submit" type="submit" name="action" value="Send">Submit
                         <i class="material-icons right">check</i>
                     </button>
                 </form>
